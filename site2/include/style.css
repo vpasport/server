@@ -1,0 +1,54 @@
+body{
+  background : rgb( 100, 100, 100 );
+}
+
+.testDiv{
+  display : inline-block;
+  font-size : 16px;
+  font-weight : bold;
+  color : rgb( 255, 255, 255 );
+  background : rgb( 0, 0, 150 );
+  padding : 5px;
+  border : rgb( 255, 255, 255 ) 2px solid;
+}
+
+.testButton{
+  font-size : 16px;
+  font-weight : bold;
+  color : rgb( 255, 255, 255 );
+  background : rgba( 0, 0, 0, 0.5 );
+  padding : 5px;
+  border : rgb( 0, 0, 0 ) 2px solid;
+  outline : none;
+  letter-spacing : 3px;
+}
+.testButton:hover{
+  cursor : pointer;
+  background : rgb( 255, 255, 255 );
+  color : rgb( 0, 0, 0 );
+}
+
+#badPage{
+  position : absolute;
+  left : 0px;
+  top : 0px;
+  text-align : center;
+  font-size : 60px;
+  font-weight : bold;
+  color : rgb( 255, 255, 255 );
+}
+
+.testText, .testTextReadonly{
+  font-size : 16px;
+  font-weight : bold;
+  text-align : center;
+  background : rgb( 255, 255, 255 );
+  padding : 5px;
+  border : rgb( 0, 0, 0 ) 2px solid;
+  outline : none;
+  letter-spacing : 1px;
+  margin-bottom : 5px;
+}
+.testText:focus{
+  border : rgb( 150, 150, 150 ) 2px solid;
+}
